@@ -10,6 +10,6 @@ public class Main {
         int n = leight/plitka;
         if (whidth % plitka != 0) m++;
         if (leight % plitka != 0) n++;
-            System.out.println(n*m);
+        System.out.println(n*m);
     }
 }
