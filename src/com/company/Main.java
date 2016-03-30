@@ -8,11 +8,11 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        int whidth = scan.nextInt();
-        int leight = scan.nextInt();
-        int plitka = scan.nextInt();
-        int m = whidth / plitka;
-        int n = leight / plitka;
+        long whidth = scan.nextInt();
+        long leight = scan.nextInt();
+        long plitka = scan.nextInt();
+        long m = whidth / plitka;
+        long n = leight / plitka;
         if (whidth % plitka != 0) m++;
         if (leight % plitka != 0) n++;
         System.out.println(n * m);
